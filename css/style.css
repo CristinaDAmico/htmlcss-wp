@@ -155,17 +155,13 @@ h3{
     margin: 20px 0;
 }
 
-
-
-
-
-
-
-
-
-
 /* FOOTER */
-footer{
-    height: 60px;
-    background-color: rebeccapurple;
+.signature{
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+span{
+    color: red;
 }
