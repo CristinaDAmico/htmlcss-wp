@@ -71,8 +71,30 @@ header .brand img{
 /* HERO-IMAGE */
 .hero{
     height: 500px;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    border-radius: 20px;
     margin-bottom: 40px;
-    background-color: gold;
+}
+
+.hero .image{
+    height: 500px;
+    background: rgba(0,0,0, .3);
+    border-radius: 20px;
+    position: relative;
+}
+
+.hero .image .title{
+    width: 50%;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 40px;
+    bottom: 80px;
+}
+
+.title h1{
+    color: white;
 }
 
 /* LEADERSHIP */
