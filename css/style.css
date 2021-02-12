@@ -72,6 +72,7 @@ header .brand img{
 .hero{
     height: 500px;
     background-image: url(../img/banner.jpg);
+    background-size: cover;
     background-position: center;
     border-radius: 20px;
     margin-bottom: 40px;
@@ -100,13 +101,11 @@ header .brand img{
 /* LEADERSHIP */
 .leadership{
     margin-bottom: 20px;
-    background-color: dodgerblue;
 }
 
 .leadership .heading{
     height: 60px;
     margin-bottom: 40px;
-    background-color: lightblue;
 }
 
 .leadership h2{
@@ -117,9 +116,7 @@ header .brand img{
 .leadership .columns .col{
     float: left;
     width: 20%;
-    height: 600px;
     margin-bottom: 20px;
-    background-color: lightblue;
 }
 
 .leadership .columns .col:nth-child(2){
@@ -127,6 +124,45 @@ header .brand img{
     margin-left: 2%;
     margin-right: 2%;
 }
+
+.bg{
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.bg.one{
+    background-image: url(../img/img-1.jpg);
+}
+
+.bg.two{
+    background-image: url(../img/img-2.jpg);
+}
+
+.bg.three{
+    background-image: url(../img/img-3.jpg);
+}
+
+.opacity{
+    width: 100%;
+    height: 250px;
+    background: rgba(0,0,0, .3);
+    border-radius: 20px;
+}
+
+h3{
+    margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
 
 /* FOOTER */
 footer{
