@@ -4,3 +4,61 @@
     margin:0%;
     box-sizing: border-box;
 }
+
+/* UTILITY */
+.container{
+    width:1170px;
+    margin: auto;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* HEADER */
+header{
+    height: 120px;
+    margin-bottom: 40px;
+    background-color: rgb(253, 104, 129);
+}
+
+/* HERO-IMAGE */
+.hero{
+    height: 500px;
+    margin-bottom: 40px;
+    background-color: gold;
+}
+
+/* LEADERSHIP */
+.leadership{
+    margin-bottom: 20px;
+    background-color: dodgerblue;
+}
+
+.leadership .heading{
+    height: 60px;
+    margin-bottom: 40px;
+    background-color: lightblue;
+}
+
+.leadership .columns .col{
+    float: left;
+    width: 20%;
+    height: 600px;
+    margin-bottom: 20px;
+    background-color: lightblue;
+}
+
+.leadership .columns .col:nth-child(2){
+    width: 56%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/* FOOTER */
+footer{
+    height: 60px;
+    background-color: rebeccapurple;
+}
