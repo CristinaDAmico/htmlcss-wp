@@ -5,6 +5,22 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #858585;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: 600;
+    color: black;
+}
+
 /* UTILITY */
 .container{
     width:1170px;
@@ -19,10 +35,38 @@
 
 /* HEADER */
 header{
-    height: 120px;
     margin-bottom: 40px;
-    background-color: rgb(253, 104, 129);
 }
+
+header .brand img{
+    width: 165px;
+}
+
+.menu{
+    margin-top: 40px;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.menu li:last-child{
+    margin-right: 0;
+}
+
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #858585;
+
+}
+
+.menu li a:hover{
+    color:black;
+}
+
 
 /* HERO-IMAGE */
 .hero{
@@ -41,6 +85,11 @@ header{
     height: 60px;
     margin-bottom: 40px;
     background-color: lightblue;
+}
+
+.leadership h2{
+    font-size: 35px;
+
 }
 
 .leadership .columns .col{
